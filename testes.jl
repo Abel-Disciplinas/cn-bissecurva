@@ -1,4 +1,4 @@
-using Test
+using LinearAlgebra, Test
 
 include("bissecurva.jl")
 

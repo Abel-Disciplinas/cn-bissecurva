@@ -1,2 +1,2 @@
 language = "julia"
-run = "julia --project testes.jl"
+run = "julia --project testes.jl; julia --project -e 'using Pkg; pkg\"instantiate\"'; julia --project resolve-canhao.jl"
